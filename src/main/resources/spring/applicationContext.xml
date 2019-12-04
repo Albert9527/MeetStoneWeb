@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--import：此标签可以将其他的配置文件引入，这样的话我们将来整体读取一个核心配置文件即可-->
+    <import resource="classpath:spring/spring-*.xml"/>
+    <!--引入Spring文件夹下的所有前置为Spring-*的xml文件-->
+</beans>
